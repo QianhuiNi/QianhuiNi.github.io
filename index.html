@@ -1,0 +1,284 @@
+<!DOCTYPE html> 
+
+<!--ITP 104 Summer 2021-->
+<!--This is the final project.-->
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<meta name="keywords" content="ITP 104, final project, home page">
+	<meta name="description" content="This is the home page of Qianhui Ni's ITP 104 final project. The homepage includes an overview of myself, and my resume will be placed in the section of details. My contact info will be displayed here, too.">
+    
+    <link rel="stylesheet" href="final.css">
+
+    <title>Qianhui Ni | Portfolio</title>
+
+    <style>
+
+		#header {
+			background-image: url('img/header.jpeg');
+		}
+
+        .date {
+            float:right;
+            margin: 0px;
+        }
+        .institution {
+            float:left;
+            margin: 0px;
+        }
+        .detail {
+            width: 770px;
+            margin-left: 30px;
+        }
+        #selfie {
+            position: relative;
+            float: right;
+            margin: 0px;
+            width: 200px;
+            cursor: pointer;
+        }
+        #selfie #selfkid {
+            
+            position: absolute;
+            display: none;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+        }
+        #selfie:hover #selfkid {
+            display: block;
+        }
+        
+        #aboutmedetail {
+            margin-left: 30px;
+        }
+        
+        .gallery {
+			display: flex;
+			align-items: flex-start;
+		}
+		.thumbnail {
+			width: 230px;
+			height: 180px;
+			margin: 10px;
+
+			opacity: 0.8; 
+		}
+
+		.thumbnail:hover {
+			opacity: 1.0;
+		}
+
+		.thumbnail + p {
+			text-align: center;
+			visibility: hidden;
+		}
+
+		.thumbnail:hover + p {
+			visibility: visible;
+		}
+        
+    </style>
+
+</head>
+
+<body>
+    <div id="header">
+		<h1>QIANHUI NI</h1>
+	</div> <!-- #header -->
+
+    <div id="navbar">
+
+		<div id="nav">
+
+			<ul>
+				<li><a href="home.html">>>></a></li>
+				<li><a href="home.html"><strong>Home</strong></a></li>
+				<li><a href="research.html">Research</a></li>
+				<li><a href="publication.html">Publications</a></li>
+                <li><a href="extra.html">Extra</a></li>
+                
+			</ul>
+
+		</div> <!-- #nav -->
+
+	</div> <!-- #navbar -->
+
+
+    <div id="main">
+        <div id="aboutme">
+
+            <div id="selfie">
+                <div id="selfienow">
+                    <img src="img/selfie.png" alt="A Photo of Me">
+                </div>
+                <div id="selfkid">
+                    <img src="img/selfkid.jpeg" alt="Kid version of me">
+                </div>
+            </div>
+            
+            <h2>About me</h2>
+            <div id="aboutmedetail">
+                <p>I'm a Ph.D. student from the <a href="https://dornsife.usc.edu/psyc" target="_blank">Department of Psychology at USC</a>.</p>
+                <p>My research area is Developmental Psychology. I am mainly interested in children's Theory of Mind development, and social learning.</p>
+                <p>Contact: <a href="mailto:itp@usc.edu">qni@usc.edu</a> or  <a href="https://twitter.com/QianhuiNi?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @QianhuiNi</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+            </div>
+            <div class="clearfloat"></div>
+
+        </div>
+
+        <br>
+
+        <div id="details">
+            <h2>Details</h2>
+            
+            <div class="detail">
+                <h3>Educations</h3>
+
+                <p class="institution"><strong>University of Southern California</strong></p>
+                <p class="date">Aug 2019 - Present</p>
+                <div class="clearfloat"></div>
+                <ul>
+                    <li>Ph.D. student in Psychology, research area: Developmental Psychology</li>
+                    <li>Advisor: Dr. Henrike Moll (<a href="https://dornsife.usc.edu/labs/mid-la/" target="_blank">Minds in Development Lab</a>)</li>
+                </ul>
+
+                <p class="institution"><strong>East China Normal University</strong></p>
+                <p class="date">Sept 2015 - Jun 2019</p>
+                 <div class="clearfloat"></div>
+                <ul>
+                    <li>B.S. in Psychology</li>
+                </ul>
+
+                <p class="institution"><strong>University College London</strong></p>
+                <p class="date">Jul 2017 - Aug 2017</p>
+                <div class="clearfloat"></div>
+                <ul>
+                    <li>Summer School: Action in Psychology</li>
+                </ul>
+
+                <h3>Experiences</h3>
+                <p class="institution"><strong>Research Assistant</strong> | <em>Brown University</em></p>
+                <p class="date">Jul 2018 - Sept 2018</p>
+                <div class="clearfloat"></div>
+                <ul>
+                    <li>Advisor: Dr. Oriel FeldmanHall (<a href="http://www.feldmanhalllab.com/" target="_blank">FeldmanHall Lab</a>)</li>
+                    <li>Research on social learning, trust building and moral cognition </li>
+                    <li>Responsible for experimental design, participants recruitment, data collection and data analysis</li>
+                </ul>
+
+                <p class="institution"><strong>Secondary director</strong> | <em>ECNU</em></p>
+                <p class="date">Sept 2016 - Oct 2017</p>
+                <div class="clearfloat"></div>
+                <ul>
+                    <li>Research on the sibling relationships of China's two-child family </li>
+                    <li>Responsible for research design, interviews, coding, data analysis, presentation and thesis writing</li>
+                </ul>
+
+                <p class="institution"><strong>Research Assistant</strong> | <em>ECNU & NYU Shanghai</em></p>
+                <p class="date">Dec 2016 - May 2019</p>
+                <div class="clearfloat"></div>
+                <ul>
+                    <li>Research on influence of maternal depression on children development  </li>
+                    <li>Responsible for conducting tests, mobile app evaluation, data analyses and thesis writing</li>
+                </ul>
+
+                <p class="institution"><strong>Founder & Captain</strong> | <em>ECNU</em></p>
+                <p class="date">Jul 2017 - May 2019</p>
+                <div class="clearfloat"></div>
+                <ul>
+                    <li>Won the award for Best Project of the School of Psychology and Cognitive Science, excellent project of ECNU</li>
+                    <li>Science and service practice activities of families with autism </li>
+                </ul>
+
+                <p class="institution"><strong>HR Intern</strong> | <em>Amazon</em></p>
+                <p class="date">Sept 2018 - Oct 2018</p>
+                <div class="clearfloat"></div>
+                <ul>
+                    <li>Assisted in managing full spectrum of HR services including employment administration, employee termination, training, and employee relations and communication</li>
+                </ul>
+            
+        
+        
+                <h3>Skills</h3>
+
+                <div class="gallery">
+
+                    <div class="img-container">
+                        <img class="thumbnail" src="img/r.png" alt="R">
+                        <p>R Programming</p>
+                    </div>
+                    <div class="img-container">
+                        <img class="thumbnail" src="img/python.jpeg" alt="Python">
+                        <p>Python</p>
+                    </div>
+                    <div class="img-container">
+                        <img class="thumbnail" src="img/htmlcss.jpeg" alt="HTML CSS">
+                        <p>HTML & CSS</p>
+                    </div>
+                </div>
+                <div class="gallery">
+                    <div class="img-container">
+                        <img class="thumbnail" src="img/fnirs.jpeg" alt="fNIRS">
+                        <p>fNIRS</p>
+                    </div>
+                    <div class="img-container">
+                        <img class="thumbnail" src="img/eye.jpeg" alt="Eye Tracking">
+                        <p>Eye Tracking</p>
+                    </div>
+                    <div class="img-container">
+                        <img class="thumbnail" src="img/eeg.jpeg" alt="EEG">
+                        <p>EEG</p>
+                    </div>
+
+                </div>
+               
+                <h3 id="awardtitle">Honors & Awards</h3>
+                <div id="awardlist">
+                    <ul>
+                        <li>USC Department of Psychology Doctoral Research Grant Award 2020-2021: $1,900</li>
+                        <li>USC Department of Psychology Doctoral Research Grant Award 2019-2020: $1,705</li>
+                        <li>USC Department of Psychology Travel Award 2021</li>
+                        <li>USC Department of Psychology Travel Award 2020</li>
+                        <li>Title for Outstanding Graduates in Shanghai 2019</li>
+                        <li>ECNU Outstanding Undergraduate Thesis Award 2019</li>
+                        <li>Shanghai Municipal Fellowship 2017-2018</li>
+                        <li>ECNU Title for Outstanding Student 2017-2018</li>
+                        <li>ECNU University Fellowship (First-class) 2016-2017</li>
+                        <li>ECNU Title for Advanced individual of Summer practice 2017</li>
+                        <li>ECNU Title for Outstanding Officer of Student Union 2016</li>
+                        <li>ECNU Third Prize in English Speech Contest 2017</li>
+                        <li>ECNU First Prize in the Essay Competition 2019</li>
+                        <li>ECNU First Prize in the Essay Competition 2018</li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+    <div id="footer">
+		Qianhui Ni &copy; 2021
+	</div> <!-- #footer -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+        $('#awardtitle').css('cursor', 'pointer');
+        
+        $('#awardtitle').click(function(){
+			$('#awardlist').slideToggle();
+		});
+    </script>
+
+    
+</body>
+
+</html>
