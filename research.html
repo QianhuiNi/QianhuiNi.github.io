@@ -1,0 +1,157 @@
+<!DOCTYPE html> 
+
+<!--ITP 104 Summer 2021-->
+<!--This is the final project.-->
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<meta name="keywords" content="ITP 104, final project, research page">
+	<meta name="description" content="This is the second page in Qianhui Ni's ITP 104 final project. The page contains four of my major research topics. A paragraph of description about each research topic is also provided.">
+    
+    <link rel="stylesheet" href="final.css">
+    
+    <title>Qianhui Ni | Portfolio</title>
+
+    <style>
+
+		#header {
+			background-image: url('img/train.gif');
+		}
+
+        .sections {
+            height: 500px;
+			background-size: cover; 
+			background-position: center; 
+            position: relative;
+            color: #FFFEF9;
+            text-shadow: 0px 0px 10px #000
+        }
+
+        p {
+            color: #FFFEF9;
+        }
+
+        #tom {
+            background-image: url("img/tom.jpeg");
+        }
+        #ar {
+            background-image: url("img/ar.jpeg");
+            
+        }
+        #solearning {
+            background-image: url("img/sl.jpeg");
+            
+        }
+        #vygotsky {
+            background-image: url("img/vyo.jpeg");
+            
+        }
+
+        .subtitles {
+            position: absolute;
+            top: 120px;
+            left: 60px;
+            font-size: 2.5em;
+            transition: all 1s;
+        }
+        .des {
+            position: absolute;
+            top: 200px;
+            left: 60px;
+            right: 60px;
+            background-color: #000;
+			background-color: rgba(0, 0, 0, 0.6);
+            opacity: 0;
+            transition: all 1s;
+			transform: scale(1.2);
+            visibility: hidden;
+        }
+        .sections:hover .des{
+            visibility: visible;
+            transform: scale(1);
+			opacity: 1;
+        }
+        .sections:hover .subtitles{
+            transform: scale(1.1);
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <div id="header">
+		<h1>RESEARCH</h1>
+	</div> <!-- #header -->
+
+    <div id="navbar">
+
+		<div id="nav">
+
+			<ul>
+				<li><a href="home.html">>>></a></li>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="research.html"><strong>Research</strong></a></li>
+				<li><a href="publication.html">Publications</a></li>
+                <li><a href="extra.html">Extra</a></li>
+                
+			</ul>
+
+		</div> <!-- #nav -->
+
+	</div> <!-- #navbar -->
+
+
+    <div id="main">
+
+        <div id="tom" class="sections">
+            <div class="subtitles">
+                <p class="subt">Theory of Mind</p>
+            </div>
+            
+            <div class="descriptions">
+                <p class="des">To communicate and cooperate effectively, humans often need to consider the mental perspective of others and imagine how others represent things in the world. Theory of mind is defined as the psychological reasoning about other people’s mental states including desires, beliefs, and sentiments. Over the past few decades, it has been receiving considerable attention and been explored in diverse aspects. Adults are found to have a very mature Theory of Mind ability, thus most of the research is on children’s Theory of Mind development.</p>
+            </div>
+        </div>
+
+        <div id="ar" class="sections">
+            <div class="subtitles">
+                <p class="subt">Appearance-Reality Distinction</p>
+            </div>
+            
+            <div class="descriptions">
+                <p class="des">One way to reveal the characteristic limits in young children’s minimal theory of mind is by investigating their understanding of appearance-reality distinction. In many life situations, the appearance and reality of one single object can drift apart. After being revealed the true identity, most adults are able to appreciate the deceptive appearance and the reality of the same object simultaneously. The appearance and reality can be regarded as two characteristics of one object, which may bring difficulty in using the efficient system to track beliefs. From a developmental perspective, the question arises as to when and how children come to understand that appearance and reality can fail to correspond, and that appearances can cause false beliefs.</p>
+            </div>
+        </div>
+
+        <div id="solearning" class="sections">
+            <div class="subtitles">
+                <p class="subt">Social Learning</p>
+            </div>
+            
+            <div class="descriptions">
+                <p class="des">Humans have a unique form of sociality that is not found in any other animal species. For example, humans engage in joint attention and share perspectives, ideas, and knowledge with one another. This unique way of engaging with others shapes humans’ cognition from the very beginning of their lives. The question we want to explore here is: How do children learn from/about other people and this social world?</p>
+            </div>
+        </div>
+
+        <div id="vygotsky" class="sections">
+            <div class="subtitles">
+                <p class="subt">Vygotsky's Theories</p>
+            </div>
+            
+            <div class="descriptions">
+                <p class="des">As other revolutionary psychologists in history, Lev Vygotsky formed his theories on the basis of the trend in his time. The main idea of his work is to treat psychological phenomena as moving and changing processes, which leads to his emphasis on the sociocultural influence on advanced psychological functions.</p>
+            </div>
+        </div>
+        
+    </div>
+
+    <div id="footer">
+		Qianhui Ni &copy; 2021
+	</div> <!-- #footer -->
+
+    
+</body>
+
+</html>
