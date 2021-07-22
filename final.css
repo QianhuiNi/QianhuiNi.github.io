@@ -72,7 +72,7 @@ ul {
     position: fixed;
     top: 500px;
     left: 0px;
-    right: 0px;
+    /* right: 0px; */
     z-index: 1;
 }
 
