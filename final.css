@@ -79,3 +79,14 @@ ul {
 .clearfloat {
     clear: both;
 }
+
+.date {
+    float:right;
+    margin: 0px;
+    color:#303F46;
+}
+.institution {
+    float:left;
+    margin: 0px;
+    color:#303F46;
+}
