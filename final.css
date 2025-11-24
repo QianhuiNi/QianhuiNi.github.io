@@ -30,6 +30,8 @@ ul {
     width: 800px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: -240px;
+    padding-top: 0px;
 }
 
 #footer {
