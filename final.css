@@ -69,8 +69,8 @@ ul {
     color: #fffef9;
 }
 #navbar {
-    position: fixed;
-    top: 500px;
+    position: sticky;
+    top: 0px;
     left: 0px;
     right: 0px;
     z-index: 1;
